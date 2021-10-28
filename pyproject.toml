@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mlify"
+version = "0.1.0"
+description = ""
+authors = ["Aswin Murali <aswinmurali.co@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21.3"
+tensorflow = "^2.6.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
